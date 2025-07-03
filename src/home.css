@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  color: #fff;
+}
+
+h1::before {
+  content: "WELCOME";
+  color: aqua;
+  display: flex;
+  justify-content: center;
+  font-size: 4rem;
+}
+
+.title-container {
+  width: 600px;
+  height: 300px;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-top: 3rem;
+  border-radius: 5px;
+}
+
+footer {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+footer p {
+  color: #fff;
+  font-size: 0.7rem;
+  float: right;
+  padding: 4px 2rem;
+}
