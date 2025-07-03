@@ -45,3 +45,7 @@ footer p {
   float: right;
   padding: 4px 2rem;
 }
+
+a {
+  color: blue;
+}

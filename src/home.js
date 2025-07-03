@@ -8,6 +8,12 @@ function loadHome() {
   const p = document.createElement("p");
   const a = document.createElement("a");
 
+  document.querySelector("#home").style.opacity = 1;
+  document.querySelector("#menu").style.opacity = 0.8;
+  document.querySelector("#contact").style.opacity = 0.8;
+
+  content.innerHTML = "";
+
   titleDiv.className = "title-container";
   h1.textContent = " TO OUR RESTAURANT!";
   titleDiv.appendChild(h1);
@@ -16,6 +22,7 @@ function loadHome() {
   a.href =
     "https://unsplash.com/photos/a-room-with-tables-and-chairs-e4B5AvA7Jqo";
   a.textContent = "Unsplash";
+  a.target = "_blank";
   p.textContent = "Background photo by Glenov Brankovic on ";
   p.appendChild(a);
   footer.appendChild(p);
