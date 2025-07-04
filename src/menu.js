@@ -74,7 +74,7 @@ function loadMenu() {
   backgroundImgLink.target = "_blank";
 
   tableImgsLink.href =
-    "https://github.com/dere-12/Restaurant-Page?tab=readme-ov-file#image-credit";
+    "https://github.com/dere-12/Restaurant-Page?tab=readme-ov-file#image-credits";
   tableImgsLink.textContent = "Click Here.";
   tableImgsLink.target = "_blank";
 
