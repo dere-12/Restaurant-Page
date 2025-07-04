@@ -1,11 +1,8 @@
 import "./menu.css";
 import beefTacos from "./images/beef-tacos.jpg";
 import cheeseburger from "./images/cheeseburger.jpg";
-import grilledSalmon from "./images/grilled-salmon.jpg";
 import pizza from "./images/pizza.jpg";
-import salad from "./images/salad.jpg";
 import spaghetti from "./images/spaghetti.jpg";
-import icedLatte from "./images/iced-latte.jpg";
 import lemonade from "./images/lemonade.jpg";
 
 function loadMenu() {

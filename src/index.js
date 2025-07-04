@@ -3,7 +3,6 @@ import loadHome from "./home";
 import loadMenu from "./menu";
 import loadContact from "./contact";
 
-console.log("Webpack is Working!");
 loadHome();
 
 const buttons = document.querySelectorAll("nav button");

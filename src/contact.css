@@ -1,0 +1,22 @@
+section {
+  padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  border-radius: 8px;
+  margin-top: 2rem;
+}
+
+section h2 {
+  font-size: 2em;
+  margin-bottom: 6px;
+  margin-left: 6rem;
+}
+
+section .contact-info h3 {
+  font-size: 1.2em;
+  margin-top: 1rem;
+}
+
+section p {
+  font-size: 0.9rem;
+}
