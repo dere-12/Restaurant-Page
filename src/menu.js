@@ -73,9 +73,8 @@ function loadMenu() {
   backgroundImgLink.textContent = "Unsplash.";
   backgroundImgLink.target = "_blank";
 
-  // Table picture source link to be defined
-
-  tableImgsLink.href = "#";
+  tableImgsLink.href =
+    "https://github.com/dere-12/Restaurant-Page?tab=readme-ov-file#image-credit";
   tableImgsLink.textContent = "Click Here.";
   tableImgsLink.target = "_blank";
 
